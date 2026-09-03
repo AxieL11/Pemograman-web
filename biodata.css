@@ -427,3 +427,113 @@ footer {
         padding: 25px 20px;
     }
 }
+
+/* Mobile */
+
+@media (max-width: 900px) {
+
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    nav {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+
+    .hero-biodata {
+        padding: 55px 25px;
+    }
+
+    .judul h1 {
+        font-size: 40px;
+    }
+
+    .biodata-section {
+        grid-template-columns: 1fr;
+        padding: 0 25px;
+    }
+
+    .profile-card {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .data {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+
+    header {
+        padding: 18px 15px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    nav {
+        gap: 14px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .hero-biodata {
+        padding: 45px 18px;
+    }
+
+    .judul h1 {
+        font-size: 34px;
+    }
+
+    .deskripsi {
+        font-size: 15px;
+    }
+
+    .biodata-section {
+        padding: 0 18px;
+        margin: 35px auto;
+    }
+
+    .profile-card {
+        padding: 30px 20px;
+    }
+
+    .foto-profile {
+        width: 130px;
+        height: 130px;
+    }
+
+    .biodata-card {
+        padding: 25px 18px;
+    }
+
+    .data-item {
+        padding: 15px;
+    }
+
+    .data-icon {
+        min-width: 42px;
+        height: 42px;
+        font-size: 19px;
+    }
+
+    footer {
+        font-size: 13px;
+        padding: 20px 15px;
+    }
+}

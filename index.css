@@ -480,3 +480,131 @@ footer {
         text-align: center;
     }
 }
+
+/* Mobile */
+
+@media (max-width: 900px) {
+
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    nav {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 25px;
+        gap: 40px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .deskripsi {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tombol {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .profile-card {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .info {
+        grid-template-columns: 1fr;
+        padding: 40px 25px;
+    }
+
+    .info-card {
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px) {
+
+    header {
+        padding: 18px 15px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    nav {
+        gap: 14px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .hero {
+        padding: 40px 18px;
+    }
+
+    .sapaan {
+        font-size: 12px;
+    }
+
+    .hero-text h1 {
+        font-size: 34px;
+    }
+
+    .deskripsi {
+        font-size: 15px;
+    }
+
+    .tombol {
+        flex-direction: column;
+    }
+
+    .btn-utama,
+    .btn-kedua {
+        width: 100%;
+        text-align: center;
+    }
+
+    .profile-card {
+        padding: 30px 20px;
+    }
+
+    .foto-profile {
+        width: 130px;
+        height: 130px;
+    }
+
+    .info-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 13px;
+        padding: 20px 15px;
+    }
+}
